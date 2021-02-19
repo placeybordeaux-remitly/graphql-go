@@ -5,13 +5,13 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/graph-gophers/graphql-go/errors"
-	"github.com/graph-gophers/graphql-go/internal/common"
-	"github.com/graph-gophers/graphql-go/internal/exec/packer"
-	"github.com/graph-gophers/graphql-go/internal/exec/resolvable"
-	"github.com/graph-gophers/graphql-go/internal/query"
-	"github.com/graph-gophers/graphql-go/internal/schema"
-	"github.com/graph-gophers/graphql-go/introspection"
+	"github.com/placeybordeaux-remitly/graphql-go/errors"
+	"github.com/placeybordeaux-remitly/graphql-go/internal/common"
+	"github.com/placeybordeaux-remitly/graphql-go/internal/exec/packer"
+	"github.com/placeybordeaux-remitly/graphql-go/internal/exec/resolvable"
+	"github.com/placeybordeaux-remitly/graphql-go/internal/query"
+	"github.com/placeybordeaux-remitly/graphql-go/internal/schema"
+	"github.com/placeybordeaux-remitly/graphql-go/introspection"
 )
 
 type Request struct {
